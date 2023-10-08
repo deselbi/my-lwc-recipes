@@ -1,0 +1,38 @@
+<template>
+    <div class="mtd-card">
+        <div class="mtd-title">Month To Date</div>
+        <div class="mtd-row">
+            <div class="mtd-row">
+                <div class="mtd-dolar mtd-color-dolar">$</div>
+                <div class="mtd-value mtd-color-value">{data.last}k</div>
+                <div class="mtd-value-title mtd-color-title">Last Period</div>
+                <div class="mtd-color-bar-last mtd-color-legend"></div>
+            </div>
+
+            <div class="mtd-row">
+                <div class="mtd-dolar mtd-color-dolar">$</div>
+                <div class="mtd-value mtd-color-value">{data.actual}k</div>
+                <div class="mtd-value-title mtd-color-title">Actual</div>
+                <div class="mtd-color-bar-actual mtd-color-legend"></div>
+            </div>
+            <div class="mtd-row">
+                <div class="mtd-dolar mtd-color-dolar">$</div>
+                <div class="mtd-value mtd-color-value">{data.goal}k</div>
+                <div class="mtd-value-title mtd-color-title">Goal</div>
+                <div class="mtd-color-bar-goal mtd-color-legend"></div>
+            </div>
+        </div>
+
+        <div class="mtd-row">
+            <div class="mtd-color-bar-wrap">
+                <div class="mtd-color-bar-last" style={lastStyle}>
+                    <div class="mtd-color-bar-actual" style={actualStyle}></div>
+                </div>
+            </div>
+            <div style="width: 3px; height: 32px; background: #242d31"></div>
+        </div>
+        <!-- next line-->
+
+        <!-- next line-->
+    </div>
+</template>

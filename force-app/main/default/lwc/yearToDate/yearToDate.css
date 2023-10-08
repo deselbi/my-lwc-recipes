@@ -1,0 +1,74 @@
+.mtd-card {
+    width: 460;
+    height: 320;
+    padding: 5px;
+    background: #fefefe;
+}
+
+.mtd-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 446px;
+}
+
+.mtd-title {
+    color: #909090;
+    font-size: 16px;
+    font-family: Helvetica Neue;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.mtd-value {
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-right: 10px;
+}
+
+.mtd-dolar {
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-right: 10px;
+}
+
+.mtd-value-title {
+    font-size: 10px;
+    font-family: Helvetica Neue;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-right: 10px;
+}
+
+.mtd-color-legend {
+    width: 8px;
+    height: 5px;
+    margin-right: 10px;
+}
+
+.mtd-color-dolar {
+    color: #c4c4c4;
+}
+
+.mtd-color-value {
+    color: #242d31;
+}
+.mtd-color-title {
+    color: #727272;
+}
+
+.mtd-color-bar-last {
+    background: #8ecef5;
+}
+
+.mtd-color-bar-actual {
+    background: #4399f7;
+}
+
+.mtd-color-bar-goal {
+    background: #242d31;
+}

@@ -1,0 +1,5 @@
+
+sfdx org:login:web --alias vscodeOrg --instance-url https://login.salesforce.com --set-default
+
+sfdx force:source:deploy -p force-app
+
